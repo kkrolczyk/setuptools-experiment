@@ -1,0 +1,3 @@
+dist
+dist_without_venv_glob
+pkg_directory

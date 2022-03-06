@@ -1,0 +1,406 @@
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools @ git+https://github.com/pypa/setuptools@experimental/support-pyproject, wheel)
+* Getting dependencies for sdist...
+/tmp/build-env-6u823v2_/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+/tmp/build-env-6u823v2_/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+No parent package detected, impossible to derive `name`
+running egg_info
+creating pkg_directory.egg-info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+package init file './dist_without_venv_glob/__init__.py' not found (or not a regular file)
+package init file './venv/share/__init__.py' not found (or not a regular file)
+package init file './venv/bin/__init__.py' not found (or not a regular file)
+package init file './venv/lib/__init__.py' not found (or not a regular file)
+package init file './venv/lib64/__init__.py' not found (or not a regular file)
+package init file './venv/include/__init__.py' not found (or not a regular file)
+package init file './venv/share/python-wheels/__init__.py' not found (or not a regular file)
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+* Building sdist...
+/tmp/build-env-6u823v2_/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+running sdist
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+package init file './dist_without_venv_glob/__init__.py' not found (or not a regular file)
+package init file './dist/__init__.py' not found (or not a regular file)
+package init file './dist/tmpdo50zsj2/__init__.py' not found (or not a regular file)
+package init file './venv/share/__init__.py' not found (or not a regular file)
+package init file './venv/bin/__init__.py' not found (or not a regular file)
+package init file './venv/lib/__init__.py' not found (or not a regular file)
+package init file './venv/lib64/__init__.py' not found (or not a regular file)
+package init file './venv/include/__init__.py' not found (or not a regular file)
+package init file './venv/share/python-wheels/__init__.py' not found (or not a regular file)
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating pkg_directory-1.0.0
+creating pkg_directory-1.0.0/pkg_directory
+creating pkg_directory-1.0.0/pkg_directory/data
+creating pkg_directory-1.0.0/pkg_directory/submodule1
+creating pkg_directory-1.0.0/pkg_directory/submodule2
+creating pkg_directory-1.0.0/venv
+creating pkg_directory-1.0.0/venv/bin
+creating pkg_directory-1.0.0/pkg_directory.egg-info
+copying files to pkg_directory-1.0.0...
+copying LICENSE -> pkg_directory-1.0.0
+copying README.md -> pkg_directory-1.0.0
+copying pyproject.toml -> pkg_directory-1.0.0
+copying ./pkg_directory/__init__.py -> pkg_directory-1.0.0/./pkg_directory
+copying ./pkg_directory/runner.py -> pkg_directory-1.0.0/./pkg_directory
+copying ./pkg_directory/data/__init__.py -> pkg_directory-1.0.0/./pkg_directory/data
+copying ./pkg_directory/data/afile.json -> pkg_directory-1.0.0/./pkg_directory/data
+copying ./pkg_directory/submodule1/__init__.py -> pkg_directory-1.0.0/./pkg_directory/submodule1
+copying ./pkg_directory/submodule1/a.py -> pkg_directory-1.0.0/./pkg_directory/submodule1
+copying ./pkg_directory/submodule2/__init__.py -> pkg_directory-1.0.0/./pkg_directory/submodule2
+copying ./pkg_directory/submodule2/b.py -> pkg_directory-1.0.0/./pkg_directory/submodule2
+copying ./venv/bin/rst2html.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2html4.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2html5.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2latex.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2man.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2odt.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2odt_prepstyles.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2pseudoxml.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2s5.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2xetex.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2xml.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rstpep2html.py -> pkg_directory-1.0.0/./venv/bin
+copying pkg_directory.egg-info/PKG-INFO -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/SOURCES.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/dependency_links.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/entry_points.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/requires.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/top_level.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+Writing pkg_directory-1.0.0/setup.cfg
+Creating tar archive
+removing 'pkg_directory-1.0.0' (and everything under it)
+* Building wheel from sdist
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools @ git+https://github.com/pypa/setuptools@experimental/support-pyproject, wheel)
+* Getting dependencies for wheel...
+/tmp/build-env-toegxc0r/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+/tmp/build-env-toegxc0r/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+No parent package detected, impossible to derive `name`
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+package init file './venv/bin/__init__.py' not found (or not a regular file)
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+* Installing packages in isolated environment... (wheel)
+* Building wheel...
+/tmp/build-env-toegxc0r/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pkg_directory
+copying ./pkg_directory/runner.py -> build/lib/pkg_directory
+copying ./pkg_directory/__init__.py -> build/lib/pkg_directory
+creating build/lib/pkg_directory/submodule1
+copying ./pkg_directory/submodule1/__init__.py -> build/lib/pkg_directory/submodule1
+copying ./pkg_directory/submodule1/a.py -> build/lib/pkg_directory/submodule1
+creating build/lib/pkg_directory/submodule2
+copying ./pkg_directory/submodule2/__init__.py -> build/lib/pkg_directory/submodule2
+copying ./pkg_directory/submodule2/b.py -> build/lib/pkg_directory/submodule2
+creating build/lib/pkg_directory/data
+copying ./pkg_directory/data/__init__.py -> build/lib/pkg_directory/data
+package init file './venv/bin/__init__.py' not found (or not a regular file)
+creating build/lib/venv
+creating build/lib/venv/bin
+copying ./venv/bin/rst2pseudoxml.py -> build/lib/venv/bin
+copying ./venv/bin/rst2html5.py -> build/lib/venv/bin
+copying ./venv/bin/rst2s5.py -> build/lib/venv/bin
+copying ./venv/bin/rst2html.py -> build/lib/venv/bin
+copying ./venv/bin/rstpep2html.py -> build/lib/venv/bin
+copying ./venv/bin/rst2man.py -> build/lib/venv/bin
+copying ./venv/bin/rst2latex.py -> build/lib/venv/bin
+copying ./venv/bin/rst2xetex.py -> build/lib/venv/bin
+copying ./venv/bin/rst2html4.py -> build/lib/venv/bin
+copying ./venv/bin/rst2xml.py -> build/lib/venv/bin
+copying ./venv/bin/rst2odt_prepstyles.py -> build/lib/venv/bin
+copying ./venv/bin/rst2odt.py -> build/lib/venv/bin
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+copying ./pkg_directory/data/afile.json -> build/lib/pkg_directory/data
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/pkg_directory
+copying build/lib/pkg_directory/runner.py -> build/bdist.linux-x86_64/wheel/pkg_directory
+creating build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+copying build/lib/pkg_directory/submodule1/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+copying build/lib/pkg_directory/submodule1/a.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+creating build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/submodule2/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/submodule2/b.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory
+creating build/bdist.linux-x86_64/wheel/pkg_directory/data
+copying build/lib/pkg_directory/data/afile.json -> build/bdist.linux-x86_64/wheel/pkg_directory/data
+copying build/lib/pkg_directory/data/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/data
+creating build/bdist.linux-x86_64/wheel/venv
+creating build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2pseudoxml.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2html5.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2s5.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2html.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rstpep2html.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2man.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2latex.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2xetex.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2html4.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2xml.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2odt_prepstyles.py -> build/bdist.linux-x86_64/wheel/venv/bin
+copying build/lib/venv/bin/rst2odt.py -> build/bdist.linux-x86_64/wheel/venv/bin
+running install_egg_info
+Copying pkg_directory.egg-info to build/bdist.linux-x86_64/wheel/pkg_directory-1.0.0-py3.9.egg-info
+running install_scripts
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+creating build/bdist.linux-x86_64/wheel/pkg_directory-1.0.0.dist-info/WHEEL
+creating '/tmp/setuptools-experiment/dist/tmp0w9hyxtq/pkg_directory-1.0.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'pkg_directory/__init__.py'
+adding 'pkg_directory/runner.py'
+adding 'pkg_directory/data/__init__.py'
+adding 'pkg_directory/data/afile.json'
+adding 'pkg_directory/submodule1/__init__.py'
+adding 'pkg_directory/submodule1/a.py'
+adding 'pkg_directory/submodule2/__init__.py'
+adding 'pkg_directory/submodule2/b.py'
+adding 'venv/bin/rst2html.py'
+adding 'venv/bin/rst2html4.py'
+adding 'venv/bin/rst2html5.py'
+adding 'venv/bin/rst2latex.py'
+adding 'venv/bin/rst2man.py'
+adding 'venv/bin/rst2odt.py'
+adding 'venv/bin/rst2odt_prepstyles.py'
+adding 'venv/bin/rst2pseudoxml.py'
+adding 'venv/bin/rst2s5.py'
+adding 'venv/bin/rst2xetex.py'
+adding 'venv/bin/rst2xml.py'
+adding 'venv/bin/rstpep2html.py'
+adding 'pkg_directory-1.0.0.dist-info/LICENSE'
+adding 'pkg_directory-1.0.0.dist-info/METADATA'
+adding 'pkg_directory-1.0.0.dist-info/WHEEL'
+adding 'pkg_directory-1.0.0.dist-info/entry_points.txt'
+adding 'pkg_directory-1.0.0.dist-info/top_level.txt'
+adding 'pkg_directory-1.0.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built pkg_directory-1.0.0.tar.gz and pkg_directory-1.0.0-py3-none-any.whl
+
+
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools @ git+https://github.com/pypa/setuptools@experimental/support-pyproject, wheel)
+* Getting dependencies for sdist...
+/tmp/build-env-_mzjwgle/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+/tmp/build-env-_mzjwgle/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+No parent package detected, impossible to derive `name`
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+package init file './dist_without_venv_glob/__init__.py' not found (or not a regular file)
+package init file './dist/__init__.py' not found (or not a regular file)
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+* Building sdist...
+/tmp/build-env-_mzjwgle/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+No parent package detected, impossible to derive `name`
+running sdist
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+package init file './dist_without_venv_glob/__init__.py' not found (or not a regular file)
+package init file './dist/__init__.py' not found (or not a regular file)
+package init file './dist/tmp8sjqrunp/__init__.py' not found (or not a regular file)
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating pkg_directory-1.0.0
+creating pkg_directory-1.0.0/pkg_directory
+creating pkg_directory-1.0.0/pkg_directory/data
+creating pkg_directory-1.0.0/pkg_directory/submodule1
+creating pkg_directory-1.0.0/pkg_directory/submodule2
+creating pkg_directory-1.0.0/venv
+creating pkg_directory-1.0.0/venv/bin
+creating pkg_directory-1.0.0/pkg_directory.egg-info
+copying files to pkg_directory-1.0.0...
+copying LICENSE -> pkg_directory-1.0.0
+copying README.md -> pkg_directory-1.0.0
+copying pyproject.toml -> pkg_directory-1.0.0
+copying ./pkg_directory/__init__.py -> pkg_directory-1.0.0/./pkg_directory
+copying ./pkg_directory/runner.py -> pkg_directory-1.0.0/./pkg_directory
+copying ./pkg_directory/data/__init__.py -> pkg_directory-1.0.0/./pkg_directory/data
+copying ./pkg_directory/data/afile.json -> pkg_directory-1.0.0/./pkg_directory/data
+copying ./pkg_directory/submodule1/__init__.py -> pkg_directory-1.0.0/./pkg_directory/submodule1
+copying ./pkg_directory/submodule1/a.py -> pkg_directory-1.0.0/./pkg_directory/submodule1
+copying ./pkg_directory/submodule2/__init__.py -> pkg_directory-1.0.0/./pkg_directory/submodule2
+copying ./pkg_directory/submodule2/b.py -> pkg_directory-1.0.0/./pkg_directory/submodule2
+copying ./venv/bin/rst2html.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2html4.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2html5.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2latex.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2man.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2odt.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2odt_prepstyles.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2pseudoxml.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2s5.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2xetex.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rst2xml.py -> pkg_directory-1.0.0/./venv/bin
+copying ./venv/bin/rstpep2html.py -> pkg_directory-1.0.0/./venv/bin
+copying pkg_directory.egg-info/PKG-INFO -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/SOURCES.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/dependency_links.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/entry_points.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/requires.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+copying pkg_directory.egg-info/top_level.txt -> pkg_directory-1.0.0/pkg_directory.egg-info
+Writing pkg_directory-1.0.0/setup.cfg
+Creating tar archive
+removing 'pkg_directory-1.0.0' (and everything under it)
+* Building wheel from sdist
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools @ git+https://github.com/pypa/setuptools@experimental/support-pyproject, wheel)
+* Getting dependencies for wheel...
+/tmp/build-env-x760u6q9/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+/tmp/build-env-x760u6q9/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+* Installing packages in isolated environment... (wheel)
+* Building wheel...
+/tmp/build-env-x760u6q9/lib/python3.9/site-packages/setuptools/config/pyprojecttoml.py:97: _ExperimentalProjectMetadata: Support for project metadata in `pyproject.toml` is still experimental and may be removed (or change) in future releases.
+  warnings.warn(msg, _ExperimentalProjectMetadata)
+Install ``trove-classifiers`` to ensure proper validation. Meanwhile a list of classifiers will be downloaded from PyPI.
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pkg_directory
+copying ./pkg_directory/runner.py -> build/lib/pkg_directory
+copying ./pkg_directory/__init__.py -> build/lib/pkg_directory
+creating build/lib/pkg_directory/submodule1
+copying ./pkg_directory/submodule1/__init__.py -> build/lib/pkg_directory/submodule1
+copying ./pkg_directory/submodule1/a.py -> build/lib/pkg_directory/submodule1
+creating build/lib/pkg_directory/submodule2
+copying ./pkg_directory/submodule2/__init__.py -> build/lib/pkg_directory/submodule2
+copying ./pkg_directory/submodule2/b.py -> build/lib/pkg_directory/submodule2
+creating build/lib/pkg_directory/data
+copying ./pkg_directory/data/__init__.py -> build/lib/pkg_directory/data
+running egg_info
+writing pkg_directory.egg-info/PKG-INFO
+writing dependency_links to pkg_directory.egg-info/dependency_links.txt
+writing entry points to pkg_directory.egg-info/entry_points.txt
+writing requirements to pkg_directory.egg-info/requires.txt
+writing top-level names to pkg_directory.egg-info/top_level.txt
+reading manifest file 'pkg_directory.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'pkg_directory.egg-info/SOURCES.txt'
+copying ./pkg_directory/data/afile.json -> build/lib/pkg_directory/data
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/pkg_directory
+copying build/lib/pkg_directory/runner.py -> build/bdist.linux-x86_64/wheel/pkg_directory
+creating build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+copying build/lib/pkg_directory/submodule1/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+copying build/lib/pkg_directory/submodule1/a.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule1
+creating build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/submodule2/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/submodule2/b.py -> build/bdist.linux-x86_64/wheel/pkg_directory/submodule2
+copying build/lib/pkg_directory/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory
+creating build/bdist.linux-x86_64/wheel/pkg_directory/data
+copying build/lib/pkg_directory/data/afile.json -> build/bdist.linux-x86_64/wheel/pkg_directory/data
+copying build/lib/pkg_directory/data/__init__.py -> build/bdist.linux-x86_64/wheel/pkg_directory/data
+running install_egg_info
+Copying pkg_directory.egg-info to build/bdist.linux-x86_64/wheel/pkg_directory-1.0.0-py3.9.egg-info
+running install_scripts
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+creating build/bdist.linux-x86_64/wheel/pkg_directory-1.0.0.dist-info/WHEEL
+creating '/tmp/setuptools-experiment/dist/tmp5h8aaeq3/pkg_directory-1.0.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'pkg_directory/__init__.py'
+adding 'pkg_directory/runner.py'
+adding 'pkg_directory/data/__init__.py'
+adding 'pkg_directory/data/afile.json'
+adding 'pkg_directory/submodule1/__init__.py'
+adding 'pkg_directory/submodule1/a.py'
+adding 'pkg_directory/submodule2/__init__.py'
+adding 'pkg_directory/submodule2/b.py'
+adding 'pkg_directory-1.0.0.dist-info/LICENSE'
+adding 'pkg_directory-1.0.0.dist-info/METADATA'
+adding 'pkg_directory-1.0.0.dist-info/WHEEL'
+adding 'pkg_directory-1.0.0.dist-info/entry_points.txt'
+adding 'pkg_directory-1.0.0.dist-info/top_level.txt'
+adding 'pkg_directory-1.0.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Successfully built pkg_directory-1.0.0.tar.gz and pkg_directory-1.0.0-py3-none-any.whl
