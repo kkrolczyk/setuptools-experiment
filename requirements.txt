@@ -1,0 +1,6 @@
+unidiff >= 0.7.0, < 2.0.0
+zstandard >= 0.17.0, < 2.0.0
+build
+rst2pdf
+python-debian >= 0.1.43, <2.0.0
+python-magic >=0.4.20, < 2.0.0

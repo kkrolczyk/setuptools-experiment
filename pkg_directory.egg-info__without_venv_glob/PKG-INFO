@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pkg-directory
+Version: 1.0.0
+Summary: a summary
+Author: Maintainer
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: development
+License-File: LICENSE
+
+# temporary repository
+
+to experiment with setup of setuptools pyproject.toml
+
+python -m venv venv && source venv/bin/activate && pip install -r requirements.txt && pip install -r requirements-dev.txt && python -m build 2>&1 | tee -a log
+
+
